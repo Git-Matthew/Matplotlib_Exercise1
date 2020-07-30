@@ -3,7 +3,7 @@ import pandas as pd
 
 wktime1 = pd.read_csv('wktime.T001.his',delimiter=' ',header=None)
 plt.plot(wktime1[0], wktime1[1], color = 'b', label = 'Time 001')
-
+wktime1
 wktime4 = pd.read_csv('wktime.T004.his',delimiter=' ',header=None)
 plt.plot(wktime4[0], wktime4[1], color = 'r', label = 'Time 004')
 
